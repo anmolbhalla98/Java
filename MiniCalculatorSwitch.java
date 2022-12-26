@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MiniCalculator{
+public class MiniCalculatorSwitch{
     public static void main(String args[]){
         Scanner sc= new Scanner(System.in);
         float d;
@@ -12,7 +12,7 @@ public class MiniCalculator{
         System.out.println("Enter 3 for Division");
         System.out.println("Enter 4 for Multiplication");
         System.out.println("Enter 5 for Modulus");
-        float c=sc.nextFloat();
+        int c=sc.nextInt();
         switch(c){
             case 1:{
                 d=a+b;
